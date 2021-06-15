@@ -8,7 +8,7 @@
 
 
 
-.slab-outer-container{
+.iframe-outer-container{
 
 display: flex;
 flex-wrap: nowrap;
@@ -20,12 +20,13 @@ position: relative;
 /* margin-right: auto;
 margin-left: auto; */
 background: white;
+padding: 1%;
 
 
 
 }
 
-.slab-container{
+.iframe-container{
 
 position: relative;
 margin-right: auto;
@@ -38,7 +39,7 @@ margin-right: auto;
 
   display:block;
   /* border-top: 1px #ccc solid; */
-  border-color: black;
+  border-color: blue;
   width: 25%;
   position:relative;
   /* margin-right: auto;
@@ -61,12 +62,14 @@ font-weight: lighter;
 
 }
 
-.bitch{
+.iframe{
 
-color: blue;
-font-weight: lighter;
+  border: 1px #ccc solid;
+  border-color: blue;
+
 
 }
+
 
 </style>
 
@@ -74,23 +77,21 @@ font-weight: lighter;
 
 
 <body>
-<div class="slab-outer-container">
-<div class="slab-container">
-
-<img src="../selfie_slab/slab1.png" height="800px">
-
+<div class="iframe-outer-container">
+  <iframe width="960" height="540" src="https://www.youtube.com/embed/uTVQREd2VZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="iframe-container">
 </div>
 
 </div>
 
 <div>
-<span class="slab-text">
+  <span class="slab-text">
 
   <i>Selfie Scroll</i>
 
   <br></br>
 
-    <a class="bitch" href="../timeline/selfiescroll.html" target="_blank"><strong>Selfie Scroll</strong></a> is a digital artwork composed of selfies found on my
+   Video artwork composed of selfies found on my
 
     <a class="p-link" href="https://www.instagram.com/m.xipad/" target="_blank"><strong>social media profile</strong></a>.
 
@@ -101,8 +102,9 @@ font-weight: lighter;
 
     <a class="p-link" href="../"> back </a>
 
-</span>
-</div>
+  </span>
+  </div>
+
 
 
 

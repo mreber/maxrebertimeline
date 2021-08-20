@@ -12,9 +12,9 @@
 
 		body{background-color: white;}
 .Title{
-			color: blue;
+			color: white;
 			font-family: Arial;
-			font-size: 23px;
+			font-size: 200%;
 			font-weight:strong;
 
 
@@ -22,17 +22,21 @@
 
 .center{
 	margin: center;
-	width: 100%;
-	text-align: left;
+	width: 19%;
+	text-align: center;
 	padding: 10px;
-	margin-left: 0px;
+	margin-left: 0.1%;
+	margin-top: 0.1%;
 	border-bottom: 1px #ccc solid;
-	border-left: 1px #ccc solid;
+	border-left: 2px #ccc solid;
+	border-right: 2px #ccc solid;
 	border-color: blue;
 	position: -webkit-sticky; /* Safari */
  	position: sticky;
-	top: 0;
 	background: white;
+	border-radius: 100px;
+float:right;
+top: 0.8%;
 
 
 
@@ -46,9 +50,26 @@
 	font-weight: strong;
 	position:relative;
 	margin: 0px;
+	text-decoration: none;
+	top: -15px;
 
 
 
+
+
+}
+
+.links:hover{
+
+	color: white;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: strong;
+	position:relative;
+	margin: 0px;
+	text-decoration: none;
+	border: 1px #ccc solid;
+	border-radius: 100px;
 
 }
 
@@ -72,16 +93,22 @@ color: blue;
 }
 
 .box1{
-	display:block;
-	padding: 5px;
+	display: block;
+	padding: .1%;
 	color: blue;
 	/* border-bottom: 1px #ccc solid; */
-	border-left: 1px #ccc solid;
+	/* border-left: 1px #ccc solid; */
 	border-color: blue;
-	margin: 0px;
+
 	font-family: monospace;
  	font-weight: bold;
 	width: 1%;
+	position: relative;
+	margin: center;
+	/* display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 1%; */
 
 }
 
@@ -96,6 +123,8 @@ color: blue;
 	font-family: monospace;
  	font-weight: bold;
 	width: 100%;
+	position: relative;
+
 
 }
 
@@ -150,6 +179,7 @@ color: blue;
 
 bottom:0px;
 color: blue;
+
 }
 
 .infoprojects{
@@ -187,22 +217,104 @@ color: blue;
 
 .about{
 
-color: purple;
+color: white;
 
 }
 
+.about:hover{
+
+	color:blue;
+
+}
 .cv{
 
-color: purple;
+color: white;
 
+
+}
+.cv:hover{
+
+	color:blue;
 
 }
 .portfolio{
 
-color: purple;
+color: white;
 
 
 
+}
+
+.portfolio:hover{
+
+	color:blue;
+
+}
+
+.selfie-scroll-title{
+	color: white;
+	font-size: xx-large;
+	font-family: "Lucida Console", "Courier New", monospace;
+  border: 1px #ccc solid;
+	border-color: blue;
+	border-radius: 100px;
+
+	/* border-image: gradient(blue, red); */
+
+
+}
+
+#gradient1{
+	background-image: linear-gradient(blue, cyan);
+	box-shadow: 0 0 5px 5px white inset;
+
+}
+
+#gradient-info{
+	background-image: linear-gradient(blue, cyan);
+	box-shadow: 0 0 3px 3px white inset;
+
+}
+
+
+#gradient-info:hover{
+	background-image: linear-gradient(black, cyan);
+	box-shadow: 0 0 5px 5px white inset;
+	color: yellow;
+}
+
+
+.imgborder{
+border: 2px #ccc solid;
+border-color: blue;
+border-radius: 15px;
+}
+
+
+
+
+.info-bubble{
+	color: white;
+	font-family: "Lucida Console", "Courier New", monospace;
+	border-left: 1px #ccc solid;
+	border-right: 1px #ccc solid;
+	border-bottom: 1px #ccc solid;
+	border-top: 1px #ccc solid;
+	border-color: blue;
+	border-radius: 100px;
+	text-decoration: none;
+
+}
+
+.info-bubble:hover{
+	color: white;
+	font-family: "Lucida Console", "Courier New", monospace;
+	border-left: 1px #ccc solid;
+	border-right: 1px #ccc solid;
+	border-top: 1px #ccc solid;
+	border-color: black;
+	border-radius: 100px;
+	text-decoration: none;
 }
 
   </style>
@@ -210,9 +322,9 @@ color: purple;
 
 
 	<body>
-<div class="center">
+<div class="center" id="gradient1">
 		<h1 class="Title">
-      Max Reber: Timeline <span class="titleprojects"><strong>Projects</strong>
+      Max Reber
 			</span>
 
 			<span><a class="about" href="../timeline/about.html">About</span></a>
@@ -224,75 +336,77 @@ color: purple;
 		<a href="#spring2021" class="links"><strong><strong>Spring 2021</strong></strong></a>
 		<a href="#fall2020" class="links"><strong><strong>Fall 2020</strong></strong></a>
 		<a href="#spring2020" class="links"><strong><strong>Spring 2020</strong></strong></a>
-		<a href="#voidsisters" class="projects"><strong><strong>Void Sisters</strong></strong></a>
-		<a href="#aidepth" class="projects"><strong><strong>AI-Depth</strong></strong></a>
+		<a href="#voidsisters" class="links"><strong><strong>Void Sisters</strong></strong></a>
+		<a href="#aidepth" class="links"><strong><strong>AI-Depth</strong></strong></a>
 
 </div>
 
 
 <!-- <div class="container1"> -->
-
+<span class="selfie-scroll-title" id="gradient1">Selfie Scroll</span>
 	<div class="box1" id="spring2021">
-		<img src="../selfie/12.png" alt"wtf" style="height: 200px" width="200">
+
+		<img src="../selfie/12.png" alt"wtf" class="imgborder" style="height: 200px" width="200">
 		<!-- <scan class="dates">Spring 2021</span> -->
 <!-- <scan class="dates">Spring 2021</span> -->
-		<a href="../timeline/SelfieSlab1.html" class="info">info</a>
+		<a href="../timeline/SelfieSlab1.html" class="info-bubble" id="gradient-info">info</a>
 
 	</div>
 
 	<div class="box1">
-		<img src="../selfie/13.png" alt"wtf" style="height: 200px" width="200">
+		<img src="../selfie/13.png" alt"wtf" class="imgborder" style="height: 200px" width="200">
 		<!-- <span class="dates">Spring 2021</span> -->
-		<a href="../timeline/SelfieSlab2.html" class="info">info</a>
+		<a href="../timeline/SelfieSlab2.html" class="info-bubble" id="gradient-info">info</a>
 	</div>
 
 	<div class="box1">
-		<img src="../selfie/14.png" alt"wtf" style="height: 200px" width="200">
+		<img src="../selfie/14.png" alt"wtf" class="imgborder" style="height: 200px" width="200">
 		<!-- <span class="dates">Spring 2021</span> -->
-		<a href="../timeline/SelfieSlab3.html" class="info">info</a>
+		<a href="../timeline/SelfieSlab3.html" class="info-bubble" id="gradient-info">info</a>
 	</div>
 
 	<div class="box1">
-		<img src="../selfie/15.png" alt"wtf" style="height: 200px" width="200">
+		<img src="../selfie/15.png" alt"wtf" class="imgborder" style="height: 200px" width="200">
 		<!-- <span class="dates">Spring 2021</span> -->
-		<a href="../timeline/SelfieSlab4.html" class="info">info</a>
+		<a href="../timeline/SelfieSlab4.html" class="info-bubble" id="gradient-info">info</a>
 	</div>
 
 	<div class="box1">
-		<img src="../selfie/16.png" alt"wtf" style="height: 200px" width="200">
+		<img src="../selfie/16.png" alt"wtf" class="imgborder" style="height: 200px" width="200">
 		<!-- <span class="dates">Spring 2021</span> -->
-		<a href="../timeline/SelfieSlab5.html" class="info">info</a>
+		<a href="../timeline/SelfieSlab5.html" class="info-bubble" id="gradient-info">info</a>
 	</div>
 
-	<div class="box2">
-		<img src="../selfie/17.png" alt"wtf" style="height: 200px" width="200">
+	<div class="box1">
+		<img src="../selfie/17.png" alt"wtf" class="imgborder" style="height: 200px" width="200">
 		<!-- <span class="dates">Spring 2021</span> -->
 		<!-- <a href="../timeline/SelfieSlab6.html" class="info">info</a> -->
 		<div class="info_bottom_border_container">
-				<a href="../timeline/SelfieSlab6.html" class="info">info</a>
+				<a href="../timeline/SelfieSlab6.html" class="info-bubble" id="gradient-info">info</a>
 			</div>
 	</div>
 
-
+<span class="selfie-scroll-title" id="gradient1">Video Bhabie</span>
 	<div class="box1" id="fall2020">
-		<img src="../fall_2020/hole.png" alt"wtf" style="height: 200px" width="200">
+
+		<img src="../fall_2020/hole.png" alt"wtf" class="imgborder" style="height: 200px" width="200">
 		<!-- <span class="dates">Fall 2020</span> -->
 		<!-- <scan class="dates">Spring 2021</span> -->
-<a href="../timeline/VideoBhabieBlu.html" class="info">info</a>
+<a href="../timeline/VideoBhabieBlu.html" class="info-bubble" id="gradient-info">info</a>
 </div>
 
 
 <div class="box1">
-	<img src="../fall_2020/VideoBhabie.png" alt"wtf" style="height: 200px" width="200">
+	<img src="../fall_2020/VideoBhabie.png" class="imgborder" alt"wtf" style="height: 200px" width="200">
 	<!-- <span class="dates">Fall 2020</span> -->
 	<!-- <scan class="dates">Spring 2021</span> -->
-<a href="../timeline/VideoBhabie.html" class="info">info</a>
+<a href="../timeline/VideoBhabie.html" class="info-bubble" id="gradient-info">info</a>
 </div>
 
-<div class="box2">
-	<img src="../fall_2020/AdoreMe.png" alt"wtf" style="height: 200px" width="200">
+<div class="box1">
+	<img src="../fall_2020/AdoreMe.png" alt"wtf" class="imgborder" style="height: 200px" width="200">
 	<div class="info_bottom_border_container">
-			<a href="../timeline/AdoreMe.html" class="info">info</a>
+			<a href="../timeline/AdoreMe.html" class="info-bubble" id="gradient-info">info</a>
 		</div>
 	</div>
 
@@ -303,61 +417,69 @@ color: purple;
 		<!-- <a href="../timeline/VideoBhabie.html" class="info">info</a>
 		</div> -->
 
+<span class="selfie-scroll-title" id="gradient1">The Hyper Local</span>
 		<div class="box1" id="spring2020">
-			<img src="../spring_2020/hyper_local.png" alt"wtf" style="height: 200px" width="200">
+
+			<img src="../spring_2020/hyper_local.png" class="imgborder" alt"wtf" style="height: 200px" width="200">
 			<!-- <span class="dates">Fall 2020</span> -->
 			<!-- <scan class="dates">Spring 2021</span> -->
-	<a href="../timeline/hyperLocal.html" class="info">info</a>
+	<a href="../timeline/hyperLocal.html" class="info-bubble" id="gradient-info">info</a>
+	</div>
+
+<span class="selfie-scroll-title" id="gradient1">Digital Double</span>
+	<div class="box1">
+
+		<img src="../spring_2020/digitaldouble1.png" class="imgborder" alt"wtf" style="height: 200px" width="200">
+		<!-- <span class="dates">Fall 2020</span> -->
+		<!-- <scan class="dates">Spring 2021</span> -->
+	<a href="../timeline/digitaldouble1.html" class="info-bubble" id="gradient-info">info</a>
 	</div>
 
 	<div class="box1">
-		<img src="../spring_2020/digitaldouble1.png" alt"wtf" style="height: 200px" width="200">
-		<!-- <span class="dates">Fall 2020</span> -->
-		<!-- <scan class="dates">Spring 2021</span> -->
-	<a href="../timeline/digitaldouble1.html" class="info">info</a>
-	</div>
-
-	<div class="box2">
-		<img src="../spring_2020/digitaldouble2.png" alt"wtf" style="height: 200px" width="200">
+		<img src="../spring_2020/digitaldouble2.png" class="imgborder" alt"wtf" style="height: 200px" width="200">
 		<div class="info_bottom_border_container">
-				<a href="../timeline/digitaldouble2.html" class="info">info</a>
+				<a href="../timeline/digitaldouble2.html" class="info-bubble" id="gradient-info">info</a>
 			</div>
 		</div>
 
-		<div class="box3-5" id="voidsisters">
-			<img src="../voidsisters/void1.png" alt"wtf" style="height: 200px" width="200">
+<span class="selfie-scroll-title" id="gradient1">Void Sisters</span>
+		<div class="box1" id="voidsisters">
+
+			<img src="../voidsisters/void1.png" alt"wtf" class="imgborder" style="height: 200px" width="200">
 			<!-- <span class="dates">Fall 2020</span> -->
 			<!-- <scan class="dates">Spring 2021</span> -->
 			<div>
-		<a href="../timeline/void1.html" class="infoprojects">info</a>
+		<a href="../timeline/void1.html" class="info-bubble" id="gradient-info">info</a>
 	</div>
 		</div>
 
-		<div class="box3">
-			<img src="../voidsisters/void2.png" alt"wtf" style="height: 200px" width="200">
+		<div class="box1">
+			<img src="../voidsisters/void2.png" alt"wtf" class="imgborder" style="height: 200px" width="200">
 			<!-- <span class="dates">Fall 2020</span> -->
 			<!-- <scan class="dates">Spring 2021</span> -->
-		<a href="../timeline/void2.html" class="infoprojects">info</a>
+		<a href="../timeline/void2.html" class="info-bubble" id="gradient-info">info</a>
 		</div>
 
-		<div class="box4">
-			<img src="../voidsisters/void3.png" alt"wtf" style="height: 200px" width="200">
+		<div class="box1">
+			<img src="../voidsisters/void3.png" alt"wtf" class="imgborder" style="height: 200px" width="200">
 			<div class="info_bottom_border_container">
-					<a href="../timeline/void3.html" class="infoprojects">info</a>
+					<a href="../timeline/void3.html" class="info-bubble" id="gradient-info">info</a>
 				</div>
 			</div>
 
-			<div class="box3" id="aidepth">
-				<img src="../aidepth/aidepth1.png" alt"wtf" style="height: 200px" width="200">
+<span class="selfie-scroll-title" id="gradient1">AI_DEPTH</span>
+			<div class="box1" id="aidepth">
+
+				<img src="../aidepth/aidepth1.png" alt"wtf" class="imgborder" style="height: 200px" width="200">
 				<!-- <span class="dates">Fall 2020</span> -->
 				<!-- <scan class="dates">Spring 2021</span> -->
-			<a href="../timeline/ai1.html" class="infoprojects">info</a>
+			<a href="../timeline/ai1.html" class="info-bubble" id="gradient-info">info</a>
 			</div>
 
-			<div class="box4">
-				<img src="../aidepth/aidepth2.png" alt"wtf" style="height: 200px" width="200">
+			<div class="box1">
+				<img src="../aidepth/aidepth2.png" alt"wtf" class="imgborder" style="height: 200px" width="200">
 				<div class="info_bottom_border_container">
-						<a href="../timeline/ai2.html" class="infoprojects">info</a>
+						<a href="../timeline/ai2.html" class="info-bubble" id="gradient-info">info</a>
 					</div>
 				</div>
 

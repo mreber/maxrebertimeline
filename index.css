@@ -1,0 +1,318 @@
+<!-- 
+	<style>
+
+		body{background-color: white;}
+.Title{
+			color: white;
+			font-family: Arial;
+			font-size: 200%;
+			font-weight:strong;
+
+
+}
+
+.center{
+	margin: center;
+	width: 19%;
+	text-align: center;
+	padding: 10px;
+	margin-left: 0.1%;
+	margin-top: 0.1%;
+	border-bottom: 1px #ccc solid;
+	border-left: 2px #ccc solid;
+	border-right: 2px #ccc solid;
+	border-color: blue;
+	position: -webkit-sticky; /* Safari */
+ 	position: sticky;
+	background: white;
+	border-radius: 100px;
+float:right;
+top: 0.8%;
+
+
+
+}
+
+.links{
+
+	color: blue;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: strong;
+	position:relative;
+	margin: 0px;
+	text-decoration: none;
+	top: -15px;
+
+
+
+
+
+}
+
+.links:hover{
+
+	color: white;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: strong;
+	position:relative;
+	margin: 0px;
+	text-decoration: none;
+	border: 1px #ccc solid;
+	border-radius: 100px;
+
+}
+
+.projects{
+
+	color: red;
+	font-family: Arial;
+	font-size: 15px;
+	position:relative;
+	margin: 0px;
+
+
+
+}
+
+
+		}
+
+.dates{
+color: blue;
+}
+
+.box1{
+	display: block;
+	padding: .1%;
+	color: blue;
+	/* border-bottom: 1px #ccc solid; */
+	/* border-left: 1px #ccc solid; */
+	border-color: blue;
+
+	font-family: monospace;
+ 	font-weight: bold;
+	width: 1%;
+	position: relative;
+	margin: center;
+	/* display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 1%; */
+
+}
+
+.box2{
+	display:block;
+	padding: 5px;
+	color: blue;
+	border-bottom: 1px #ccc solid;
+	border-left: 1px #ccc solid;
+	border-color: blue;
+	margin: 0px;
+	font-family: monospace;
+ 	font-weight: bold;
+	width: 100%;
+	position: relative;
+
+
+}
+
+.box3{
+	display:block;
+	padding: 5px;
+	border-left: 1px #ccc solid;
+	border-color: red;
+	margin: 0px;
+	font-family: monospace;
+ 	font-weight: bold;
+	width: 1%;
+}
+
+
+.box3-5{
+	display:block;
+	padding: 5px;
+	border-left: 1px #ccc solid;
+	border-top: 1px #ccc solid;
+	border-color: red;
+	margin: 0px;
+	font-family: monospace;
+ 	font-weight: bold;
+	width: 100%;
+}
+
+.box4{
+	display:block;
+	padding: 5px;
+	border-left: 1px #ccc solid;
+	border-bottom: 1px #ccc solid;
+	border-color: red;
+	margin: 0px;
+	font-family: monospace;
+ 	font-weight: bold;
+	width: 100%;
+}
+
+
+.dates{
+position: relative;
+/* border-left: 1px #ccc solid; */
+border-color: blue;
+/* border-bottom: 1px #ccc solid; */
+padding-left: .3%;
+
+color: blue;
+}
+
+.info{
+
+bottom:0px;
+color: blue;
+
+}
+
+.infoprojects{
+
+bottom:0px;
+color: red;
+}
+
+.info_bottom_border{
+width: 100px;
+border-left: 1px #ccc solid;
+border-bottom: 1px #ccc solid;
+
+bottom:0px;
+color: blue;
+}
+
+.info_bottom_border_container{
+width: 100%;
+
+
+bottom:0px;
+color: blue;
+
+}
+
+.titleprojects{
+
+	color: red;
+	font-family: Arial;
+	font-size: 23px;
+	font-weight:lighter;
+
+}
+
+.about{
+
+color: white;
+
+}
+
+.about:hover{
+
+	color:blue;
+
+}
+.cv{
+
+color: white;
+
+
+}
+.cv:hover{
+
+	color:blue;
+
+}
+.portfolio{
+
+color: white;
+
+
+
+}
+
+.portfolio:hover{
+
+	color:blue;
+
+}
+
+.selfie-scroll-title{
+	color: white;
+	font-size: xx-large;
+	font-family: "Lucida Console", "Courier New", monospace;
+  border: 1px #ccc solid;
+	border-color: blue;
+	border-radius: 100px;
+
+	/* border-image: gradient(blue, red); */
+
+
+}
+
+#gradient1{
+	background-image: linear-gradient(blue, cyan);
+	box-shadow: 0 0 5px 5px white inset;
+
+}
+
+#gradient-info{
+	background-image: linear-gradient(blue, cyan);
+	box-shadow: 0 0 3px 3px white inset;
+
+}
+
+
+#gradient-info:hover{
+	background-image: linear-gradient(black, cyan);
+	box-shadow: 0 0 5px 5px white inset;
+	color: yellow;
+}
+
+
+.imgborder{
+border: 2px #ccc solid;
+border-color: blue;
+border-radius: 15px;
+}
+
+
+
+
+.info-bubble{
+	color: white;
+	font-family: "Lucida Console", "Courier New", monospace;
+	border-left: 1px #ccc solid;
+	border-right: 1px #ccc solid;
+	border-bottom: 1px #ccc solid;
+	border-top: 1px #ccc solid;
+	border-color: blue;
+	border-radius: 100px;
+	text-decoration: none;
+
+}
+
+.info-bubble:hover{
+	color: white;
+	font-family: "Lucida Console", "Courier New", monospace;
+	border-left: 1px #ccc solid;
+	border-right: 1px #ccc solid;
+	border-top: 1px #ccc solid;
+	border-color: black;
+	border-radius: 100px;
+	text-decoration: none;
+}
+
+body{
+	background-image: linear-gradient(b, white);
+}
+
+
+  </style>
+
+ -->

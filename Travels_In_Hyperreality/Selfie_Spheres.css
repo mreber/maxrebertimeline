@@ -34,3 +34,9 @@ overflow-wrap: break-word;
 
     width: 25%;
 }
+
+.image:hover{
+
+    width: 75%;
+    transition: 1s;
+}

@@ -1,0 +1,36 @@
+.div0{
+/* container */
+   width: 100%;
+   height: 100%;
+
+}
+
+
+/* child 1 */
+.div1{
+
+background-color: rgb(255, 255, 255);
+width: 100%;;
+color: rgb(0, 0, 0);
+display:flex
+
+}
+
+/* child 2 */
+.div2{
+
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+text-align: center;
+width: 20%;
+height: 50%;
+padding: 2.5%;
+margin: auto;
+overflow-wrap: break-word;
+
+}
+
+.div3{
+
+    width: 25%;
+}

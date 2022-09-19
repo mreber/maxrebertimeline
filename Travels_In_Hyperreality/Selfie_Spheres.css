@@ -40,3 +40,9 @@ overflow-wrap: break-word;
     width: 75%;
     transition: 1s;
 }
+
+.p-link{
+
+    color: blue;
+    text-decoration: none;
+}

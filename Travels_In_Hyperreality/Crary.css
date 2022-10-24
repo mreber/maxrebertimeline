@@ -1,0 +1,41 @@
+
+.div2{
+
+color: black;
+background-color: rgb(255, 255, 255);
+text-align: center;
+width: 15%;
+padding: 1.5%;
+margin: auto;
+overflow-wrap: break-word;
+background-color: white;
+}
+
+.div3{
+
+    color: white;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 10%;
+    padding: 1.5%;
+    margin: auto;
+    overflow-wrap: break-word;
+    background-color: white;
+}
+
+.image:hover{
+
+    width: 75%;
+    transition: 1s;
+}
+
+.p-link{
+
+    color: blue;
+    text-decoration: none;
+}
+
+.title{
+size: 100px;
+color: red;
+}

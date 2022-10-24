@@ -1,0 +1,1 @@
+{'text': '', 'folder': 'C:/Users/maxrr/Desktop/maxrebertimeline/Travels_In_Hyperreality/images', 'resX': 512, 'resY': 512, 'half': 1, 'seed': 2773278096, 'origin': None, 'origin_W': None, 'steps': 150, 'vscale': 25.0, 'samples': 1}
